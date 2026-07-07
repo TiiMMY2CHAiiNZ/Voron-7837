@@ -1,0 +1,9 @@
+[gcode_macro SFS_ENCODER_ENABLE]
+description: Enable smart filament sensor
+gcode:
+    SET_FILAMENT_SENSOR SENSOR=BTT_SFS_Encoder ENABLE=1
+
+[gcode_macro SFS_ENCODER_DISABLE]
+description: Disable smart filament sensor
+gcode:
+    SET_FILAMENT_SENSOR SENSOR=BTT_SFS_Encoder ENABLE=0

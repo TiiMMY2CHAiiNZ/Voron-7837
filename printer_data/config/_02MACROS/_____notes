@@ -1,0 +1,6 @@
+RESPOND MSG=">>> MSG <<<"
+
+[gcode_macro NAME]
+description: DESCRIPTION
+gcode:
+  GCODE
